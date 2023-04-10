@@ -1,0 +1,116 @@
+.screen-header_music {
+    justify-content: center;
+}
+
+.screen-header_music div {
+    width: 33%;
+    display: flex;
+}
+
+.screen-header_music div:nth-child(2) {
+    justify-content: center;
+}
+
+/* todo. 좌우 스크롤바 생기는 거 없애기 */
+
+.title-music {
+    display: flex;
+    justify-content: center;
+}
+
+.title-music audio {
+    display: none;
+}
+
+.music_album {
+    display: flex;
+    justify-content: center;
+    border: 2px solid var(--gray);
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px 2px var(--gray);
+    margin: 50px;
+}
+
+.music_album img {
+    border-radius: 20px;
+}
+
+.music_about span {
+    display: block;
+    text-align: center;
+    line-height: 40px;
+}
+
+.music_about span:first-child {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.music_about span:last-child {
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.music_play {
+    margin: 50px;
+}
+
+.music_play-time {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0px;
+}
+
+.music_play-timer {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+@keyframes musicplayerBlack {
+    form {
+        width: 0%;
+    }
+    to {
+        width: 100%;
+    }
+}
+
+.music_play-timer div:first-child {
+    height: 5px;
+    width: 1px;
+    background-color: black;
+    position: absolute;
+    animation: musicplayerBlack 444s linear infinite
+}
+
+@keyframes musicplayertime {
+    from {
+        left: 0%;
+    }
+    to {
+        left: 100%;
+    }
+}
+
+.music_play-timer div {
+    position: absolute;
+    animation: musicplayertime 444s linear infinite;
+}
+
+@keyframes musicplayerGray {
+    form {
+        width: 0%;
+    }
+    to {
+        width: 100%;
+    }
+}
+
+.music_play-timer div:last-child {
+    height: 5px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+    position: absolute;
+    animation: musicplayerGray 444s linear infinite;
+}

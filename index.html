@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="css/style.css">
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>로그인-짱구톡</title>
+    </head>
+    <body>
+        <div class="status-bar">
+            <div class="status-bar_column">
+                <span>서비스 없음</span>
+                <i class="fas fa-wifi"></i>
+            </div>
+            <div class="status-bar_column">
+                <span>04:43</span>
+            </div>
+            <div class="status-bar_column">
+                <span>100%</span>
+                <i class="fas fa-battery-full fa-lg"></i>
+                <i class="fas fa-bolt"></i>
+            </div>
+        </div>
+
+        <header class="welcome-header">
+            <h1 class="welcome-header_title"><b>짱구톡</b>에 오신 걸 <b>환영</b>합니다!</h1>
+            <p class="welcome-header_text">짱구와 친구이신 분은<br/>이메일이나 전화번호를 입력해 주세요.</p>
+        </header>
+
+        <form action="friends.html" method="get" class="login-form">
+            <input name="username" type="text" placeholder="이메일이나 전화번호"/>
+            <input name="password" type="password" placeholder="비밀번호"/>
+            <input type="submit" value="로그인"/>
+            <input type="submit" value="짱구와 친구하기"/>
+            <a href="#">짱구와 친구일까요?</a>
+        </form>
+
+        <div id="no-mobile">
+            <span>화면이 너무 넓어요 ㅠㅠ<br/>600px 이하로 줄여주세요!</span>
+        </div>
+        
+        <script src="https://kit.fontawesome.com/a52bdb64c1.js" crossorigin="anonymous"></script>
+    </body>
+</html>

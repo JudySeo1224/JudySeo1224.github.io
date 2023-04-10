@@ -1,0 +1,15 @@
+:root {
+    --gray: rgba(0, 0, 0, 0.5);
+    --red: rgba(255, 0, 0, 1);
+    --green: rgba(0, 128, 0, 1);
+    --yellow: rgba(255, 255, 0, 1);
+    --pink: rgba(255, 192, 203, 1);
+    --blue: rgba(0, 0, 255, 1);
+    --red-half: rgba(255, 0, 0, 0.5);
+    --green-half: rgba(0, 128, 0, 0.5);
+    --yellow-half: rgba(255, 255, 0, 0.5);
+    --pink-half: rgba(255, 192, 203, 0.5);
+    --blue-half: rgba(0, 0, 255, 0.5);
+    --horizontal-space: 15px;
+    --main-border: 1px solid rgba(0,0,0,0.3);
+}

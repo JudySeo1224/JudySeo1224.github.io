@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="css/style.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>채팅방-짱구톡</title>
+    </head>
+    <body>
+        <div class="status-bar">
+            <div class="status-bar_column">
+                <span>서비스 없음</span>
+                <i class="fas fa-wifi"></i>
+            </div>
+            <div class="status-bar_column">
+                <span>04:43</span>
+            </div>
+            <div class="status-bar_column">
+                <span>100%</span>
+                <i class="fas fa-battery-full fa-lg"></i>
+                <i class="fas fa-bolt"></i>
+            </div>
+        </div>
+
+        <header class="screen-header">
+            <h1 class="screen-header_title">채팅방</h1>
+            <div class="screen-header_icons">
+                <span><a href="find.html"><i class="fas fa-search fa-lg"></i></a></span>
+                <span><i class="fas fa-comment-medical fa-lg"></i></span>
+                <span><a href="music.html"><i class="fas fa-music fa-lg"></i></a></span>
+                <span><a href="settings.html"><i class="fas fa-cog fa-lg"></i></a></span>
+            </div>
+        </header>
+
+        <main class="main-screen">
+            <a href="chatting-meangu.html">
+                <div class="user-component">
+                    <div class="user-component_column">
+                        <img src="images/맹구.jpg" class="user-component_avatar user-component_avatar">
+                        <div class="user-component_text">
+                            <h4 class="user-component_title">맹구</h4>
+                            <h6 class="user-component_subtitle">내일 유치원에서 보자</h6>
+                        </div>
+                    </div>
+                    <div class="user-component_column">
+                        <span class="user-component_time">21:30</span>
+                        <div class="badge">3</div>
+                    </div>
+                </div>
+            </a>
+            <a href="chatting-cheolsu.html">
+                <div class="user-component">
+                    <div class="user-component_column">
+                        <img src="images/철수.jpg" class="user-component_avatar user-component_avatar">
+                        <div class="user-component_text">
+                            <h4 class="user-component_title">철수</h4>
+                            <h6 class="user-component_subtitle">오늘 옷 빌려줘서 고마워...</h6>
+                        </div>
+                    </div>
+                    <div class="user-component_column">
+                        <span class="user-component_time">21:25</span>
+                        <div class="badge">1</div>
+                    </div>
+                </div>
+            </a>
+            <a href="chatting-huni.html">
+                <div class="user-component">
+                    <div class="user-component_column">
+                        <img src="images/훈이.jpg" class="user-component_avatar user-component_avatar">
+                        <div class="user-component_text">
+                            <h4 class="user-component_title">훈이</h4>
+                            <h6 class="user-component_subtitle">그럴리가 없잖아</h6>
+                        </div>
+                    </div>
+                    <div class="user-component_column">
+                        <span class="user-component_time">21:00</span>
+                    </div>
+                </div>
+            </a>
+            <a href="chatting-yuri.html" class="chatting-room_last">
+                <div class="user-component">
+                    <div class="user-component_column">
+                        <img src="images/유리.jpg" class="user-component_avatar user-component_avatar">
+                        <div class="user-component_text">
+                            <h4 class="user-component_title">유리</h4>
+                            <h6 class="user-component_subtitle">리얼 소꿉놀이 어때?</h6>
+                        </div>
+                    </div>
+                    <div class="user-component_column">
+                        <span class="user-component_time">이틀 전</span>
+                        <div class="badge">3</div>
+                    </div>
+                </div>
+            </a>
+            <!-- todo. 유리 nav-bar에 묻히는 거 해결하기 -->
+        </main>
+
+        <nav class="nav">
+            <ul class="nav_list">
+                <li class="nav_btn">
+                    <a class="nav_link" href="friends.html">
+                        <i class="far fa-user fa-2x"></i>
+                    </a>
+                </li>
+                <li class="nav_btn">
+                    <a class="nav_link" href="chats.html">
+                        <span class="nav_notification badge">7</span>
+                        <i class="fas fa-comment fa-2x"></i>
+                    </a>
+                </li>
+                <li class="nav_btn">
+                    <a class="nav_link" href="find.html">
+                        <i class="fas fa-search fa-2x"></i>
+                    </a>
+                </li>
+                <li class="nav_btn">
+                    <a class="nav_link" href="more.html">
+                        <div class="nav_dot"></div>
+                        <i class="fas fa-ellipsis-h fa-2x"></i>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+
+        <div id="no-mobile">
+            <span>화면이 너무 넓어요 ㅠㅠ<br/>600px 이하로 줄여주세요!</span>
+        </div>
+        
+        <script src="https://kit.fontawesome.com/a52bdb64c1.js" crossorigin="anonymous"></script>
+    </body>
+</html>

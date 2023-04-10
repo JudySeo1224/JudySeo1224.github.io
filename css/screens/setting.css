@@ -1,0 +1,43 @@
+.settings_list {
+    margin: 20px 0;
+}
+
+.settings_list:last-child {
+    margin-bottom: 70px;
+}
+
+.settings_setting {
+    padding: 25px 0;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    color: var(--gray);
+    justify-content: space-between;
+}
+
+.settings_setting-column {
+    display: flex;
+}
+
+.settings_setting i {
+    margin-right: 20px;
+    font-size: 22px;
+}
+
+.settings_setting-option {
+    color: rgba(0,0,0,0.3);
+}
+
+.setting_new-notice {
+    background-color: tomato;
+    color: white;
+    font-size: 14px;
+    width: 18px;
+    height: 18px;
+    text-align: center;
+    border-radius: 9px;
+    margin: 0 10px;
+    padding: 2px;
+    box-sizing: border-box;
+}

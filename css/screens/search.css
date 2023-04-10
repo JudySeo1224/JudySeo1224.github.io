@@ -1,0 +1,13 @@
+.screen-header_search {
+    display: flex;
+}
+
+.screen-header_search div {
+    width: 10%;
+    display: flex;
+}
+
+.screen-header_search div:nth-child(2) {
+    width: 80%;
+    justify-content: center;
+}

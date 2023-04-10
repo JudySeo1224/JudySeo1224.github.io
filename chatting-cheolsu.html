@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="css/style.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>철수채팅-짱구톡</title>
+    </head>
+    <body id="chat-screen" class="chatting-cheolsu">
+        <div class="status-bar">
+            <div class="status-bar_column">
+                <span>서비스 없음</span>
+                <i class="fas fa-wifi"></i>
+            </div>
+            <div class="status-bar_column">
+                <span>04:43</span>
+            </div>
+            <div class="status-bar_column">
+                <span>100%</span>
+                <i class="fas fa-battery-full fa-lg"></i>
+                <i class="fas fa-bolt"></i>
+            </div>
+        </div>
+
+        <header class="alt-header">
+            <div class="alt-header_column">
+                <a href="javascript:history.back();">
+                    <i class="fas fa-angle-left fa-3x"></i>
+                </a>
+            </div>
+            <div class="alt-header_column">
+                <h1 class="alt-header_title">철수</h1>
+            </div>
+            <div class="alt-header_column">
+                <span><i class="fas fa-search fa-2x"></i></span>
+                <span><i class="fas fa-bars fa-2x"></i></span>
+            </div>
+        </header>
+
+        <main class="main-screen main-chat">
+            <div class="chat_timestamp">
+                2023년 4월 10일 월요일
+            </div>
+            <div class="message-row message-row--own">
+                <div class="message-row_content">
+                    <div class="message_info">
+                        <span class="message_bubble">철수야 놀자!</span>
+                        <span class="message_time">16:05</span>
+                    </div>
+                </div>
+            </div>
+            <div class="message-row">
+                <img src="images/철수.jpg"/>
+                <div class="message-row_content">
+                    <span class="message_author">철수</span>
+                    <div class="message_info">
+                        <span class="message_bubble">싫어</span>
+                        <span class="message_time">17:21</span>
+                    </div>
+                </div>
+            </div>
+            <div class="message-row">
+                <img src="images/철수.jpg"/>
+                <div class="message-row_content">
+                    <span class="message_author">철수</span>
+                    <div class="message_info">
+                        <span class="message_bubble">학원 가야돼</span>
+                        <span class="message_time">17:22</span>
+                    </div>
+                </div>
+            </div>
+            <div class="message-row message-row--own">
+                <div class="message-row_content">
+                    <div class="message_info">
+                        <span class="message_bubble">맨날 학원만 가고, 철수 미워!</span>
+                        <span class="message_time">17:22</span>
+                    </div>
+                </div>
+            </div>
+            <div class="message-row">
+                <img src="images/철수.jpg"/>
+                <div class="message-row_content">
+                    <span class="message_author">철수</span>
+                    <div class="message_info">
+                        <span class="message_bubble">오늘 옷 빌려줘서 고마워...</span>
+                        <span class="message_time">21:29</span>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <form class="reply">
+            <div class="reply_column">
+                <i class="far fa-plus-square fa-2x"></i>
+            </div>
+            <div class="reply_column">
+                <input type="text" placeholder="Write a message...">
+                <i class="far fa-smile fa-lg"></i>
+                <button>
+                    <i class="fas fa-arrow-alt-circle-up"></i>
+                </button>
+            </div>
+        </form>
+
+        <div id="no-mobile">
+            <span>화면이 너무 넓어요 ㅠㅠ<br/>600px 이하로 줄여주세요!</span>
+        </div>
+        
+        <script src="https://kit.fontawesome.com/a52bdb64c1.js" crossorigin="anonymous"></script>
+    </body>
+</html> 

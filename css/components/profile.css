@@ -1,0 +1,77 @@
+.profile-header {
+    position: relative;
+    height: 40px;
+    margin-top: 20px;
+    padding: var(--horizontal-space);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(230, 230, 230);
+}
+
+.profile_icons a {
+    position: absolute;
+    left: 10px;
+    top: 20px;
+}
+
+.profile-screen {
+    height: 1000vh;
+    justify-content: center;
+}
+
+.profile-screen_jjangu {
+    background-color: var(--red-half);
+}
+
+.profile-screen_meangu {
+    background-color: var(--yellow-half);
+}
+
+.profile-screen_yuri {
+    background-color: var(--pink-half);
+}
+
+.profile-screen_huni {
+    background-color: var(--green-half);
+}
+
+.profile-screen_cheolsu {
+    background-color: var(--blue-half);
+}
+
+.profile-screen_five {
+    background-color: var(--red-half);
+}
+
+.profile-screen_user {
+    position: fixed;
+    height: 200px;
+    width: 600px;
+    bottom: 0;
+}
+
+.profile-screen_image {
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    bottom: 130px;
+    left: 36%;
+}
+
+.profile-screen_image img {
+    max-width: 150px;
+    border-radius: 50px;
+}
+
+.profile-screen_about {
+    height: 200px;
+    background-color: black;
+    color: white;
+    top: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 30px;
+}

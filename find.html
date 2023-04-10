@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="css/style.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>찾기-짱구톡</title>
+    </head>
+    <body>
+        <div class="status-bar">
+            <div class="status-bar_column">
+                <span>서비스 없음</span>
+                <i class="fas fa-wifi"></i>
+            </div>
+            <div class="status-bar_column">
+                <span>04:43</span>
+            </div>
+            <div class="status-bar_column">
+                <span>100%</span>
+                <i class="fas fa-battery-full fa-lg"></i>
+                <i class="fas fa-bolt"></i>
+            </div>
+        </div>
+
+        <header class="screen-header">
+            <h1 class="screen-header_title">찾기</h1>
+            <div class="screen-header_icons">
+                <span><a href="search.html"><i class="fas fa-search fa-lg"></i></a></span>
+                <span><a href="settings.html"><i class="fas fa-cog fa-lg"></i></a></span>
+                <div class="screen-header_dot dot"></div>
+            </div>
+        </header>
+
+        <main class="main-screen">
+            <div class="icon-row">
+                <div class="icon-row_icon">
+                    <i class="fas fa-qrcode"></i>
+                    <span>QR코드</span>
+                </div>
+                <div class="icon-row_icon">
+                    <i class="fas fa-address-book"></i>
+                    <span>주소록으로 찾기</span>
+                </div>
+                <div class="icon-row_icon">
+                    <i class="fas fa-fingerprint"></i>
+                    <span>ID로 찾기</span>
+                </div>
+                <div class="icon-row_icon">
+                    <i class="far fa-envelope"></i>
+                    <span>초대하기</span>
+                </div>
+            </div>
+            <div class="recommended-friends">
+                <h6 class="recommended-friends_title">추천 친구</h6>
+                <span>추천할 친구가 없어요.</span>
+            </div>
+            <div class="open-chat">
+                <div class="open-chat_header">
+                    <h4 class="open-chat_title">오픈채팅방</h4>
+                    <span>
+                        오픈채팅 홈으로 가기
+                        <i class="fas fa-chevron-right fa-xs"></i>
+                    </span>
+                </div>
+                <div class="open-post">
+                    <div class="open-post_column">
+                        <h5 class="open-post_title">#이슬이누나</h5>
+                        <h6 class="open-post_hashtags">#짱구의#미래신부#사랑해요</h6>
+                        <div class="open-post_members">
+                            <img src="images/짱구.jpg"/>
+                            <span class="open-post_member-count">802 멤버</span>
+                            <div class="divider"></div>
+                            <span class="open-post_member-status">활동중</span>
+                        </div>
+                    </div>
+                    <div class="open-post_column">
+                        <div class="open-post_photo">
+                            <img src="images/이슬.jpg"/>
+                            <div class="open-post_heart-count">
+                                <i class="fas fa-heart fa-xs"></i>
+                                <span>326</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="open-post">
+                    <div class="open-post_column">
+                        <h5 class="open-post_title">#이수지</h5>
+                        <h6 class="open-post_hashtags">#수지야#나랑#결혼해줘</h6>
+                        <div class="open-post_members">
+                            <img src="images/훈이.jpg"/>
+                            <span class="open-post_member-count">299 멤버</span>
+                            <div class="divider"></div>
+                            <span class="open-post_member-status">활동중</span>
+                        </div>
+                    </div>
+                    <div class="open-post_column">
+                        <div class="open-post_photo">
+                            <img src="images/수지.jpg"/>
+                            <div class="open-post_heart-count">
+                                <i class="fas fa-heart fa-xs"></i>
+                                <span>215</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <nav class="nav">
+            <ul class="nav_list">
+                <li class="nav_btn">
+                    <a class="nav_link" href="friends.html">
+                        <i class="far fa-user fa-2x"></i>
+                    </a>
+                </li>
+                <li class="nav_btn">
+                    <a class="nav_link" href="chats.html">
+                        <span class="nav_notification badge">7</span>
+                        <i class="far fa-comment fa-2x"></i>
+                    </a>
+                </li>
+                <li class="nav_btn">
+                    <a class="nav_link" href="find.html">
+                        <i class="fas fa-search-plus fa-2x"></i>
+                    </a>
+                </li>
+                <li class="nav_btn">
+                    <a class="nav_link" href="more.html">
+                        <div class="nav_dot dot"></div>
+                        <i class="fas fa-ellipsis-h fa-2x"></i>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+
+        <div id="no-mobile">
+            <span>화면이 너무 넓어요 ㅠㅠ<br/>600px 이하로 줄여주세요!</span>
+        </div>
+        
+        <script src="https://kit.fontawesome.com/a52bdb64c1.js" crossorigin="anonymous"></script>
+    </body>
+</html>
